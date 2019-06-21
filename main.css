@@ -1,0 +1,20 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.clearFix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body{
+    background: url('./wall.jpg') repeat;
+}
+
+#canvas{
+    border: 1px solid #aaaaaa;
+    display: block;
+    margin: 50px auto;
+}
